@@ -288,6 +288,7 @@ def A000041(n):
 def main():
     args = parse_args()
 <<<<<<< HEAD
+<<<<<<< HEAD
     if args.sequence == "A181391":
 =======
     if args.list:
@@ -298,6 +299,11 @@ def main():
         return A008592(args.start, args.limit)
     elif args.sequence == "A181391":
 >>>>>>> 17cc92103bbf5e082009853baa17b006ba78685a
+=======
+    if args.sequence == "A008592":
+        return A008592(args.start, args.limit)
+    elif args.sequence == "A181391":
+>>>>>>> 579b9ea4c5f07ccca8be8f08f36c8e8a8478eac9
         return A181391(args.start, args.limit, args.plot)
     elif args.sequence == "A000142":
         return A000142(args.start, args.limit, args.plot)
